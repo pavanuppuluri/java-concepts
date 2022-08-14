@@ -30,6 +30,11 @@ var j = 0, k = 0;
 var m, n = 0;
 ````
 
+// An array can be assigned to an LVTI variable
+````
+var aVarArray = new int[3];
+````
+
 // Cannot declare a var variable without also initializing it
 ````
 var someObject;
