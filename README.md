@@ -54,3 +54,33 @@ var myArray = {"A", "B"};
 ````
 var[]newarray = new int[2]; 
 ````
+// Invalid, cannot have a method return type of var
+````
+public static var returnThis(String[] args) {
+    return args;
+}
+````
+
+// Invalid, cannot have method parameter of var
+````
+public static String[] returnThat(var args) {
+    return args;
+}
+````
+
+// Static class variables cannot be declared with var
+````
+public class VarDonts {
+    static var classVariable = 10;
+}
+````
+
+// class instance variables cannot be declared with var
+````
+public class VarDonts {
+    var instanceVariable = 20;
+
+    public static void main(String[] args) {
+    }
+}
+````
