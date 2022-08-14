@@ -89,4 +89,5 @@ public class VarDonts {
 
 ![Screenshot](img/lvti_usage.png)
 
-
+![Screenshot](img/valid_lvti.png)
+![Screenshot](img/invalid_lvti.png)
